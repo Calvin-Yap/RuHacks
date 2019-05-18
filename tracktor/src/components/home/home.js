@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink }  from "react-router-dom";
+import './home.css';
+
 class Home extends React.Component{
   render(){
     document.body.style.backgroundColor= "white";
@@ -7,12 +9,23 @@ class Home extends React.Component{
     //document.body.style.backgroundAttachment = "fixed";
         return (
       <div>
-      <p> hi</p>
-      <NavLink   to="/" >HOME</NavLink>
-    <NavLink  to="/charity">Charity</NavLink>
-    <NavLink  to="/f2f">Farmer</NavLink>
-
+<div className="lshifter">    
+    <div class="row">
+            <div class="column">
+                <div className="boxes"> <NavLink  className="buttons" to="/local">Buying Local</NavLink></div>
+            </div>
+            <div class="column">
+                <div className="boxes"> <NavLink className="buttons" to="/charity">Charities</NavLink></div>
+            </div>
+            <div class="column">
+                <div className="boxes2line"> <NavLink  className="buttons" to="/farmer">Farmers Connect</NavLink></div>
+                </div>
+            <div class="column">
+                <div className="boxes2line"> <NavLink  className="buttons" to="/global">Global Operations</NavLink></div>
+            </div>
+        </div>
     </div>
+</div>      
     )
   }
 }

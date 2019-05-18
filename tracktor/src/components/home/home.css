@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Yaldevi Colombo ExtraLight Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Yaldevi Colombo ExtraLight Regular'), url('YaldeviColombo-ExtraLight.woff') format('woff');
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    min-width: 1500px;
+}
+.buttons{
+    color: white;
+    font-size: 48px;
+    text-decoration: none;
+    font-family: 'Yaldevi Colombo ExtraLight Regular';
+    text-align: center;
+}
+
+.boxes{
+    border-radius: 50px;
+    background-color: black;
+    padding-top: 108px;
+    padding-bottom:108px;
+    width: 280px;
+    text-align: center;
+    opacity: .5;
+}
+.boxes2line{
+    border-radius: 50px;
+    background-color: black;
+    padding-top: 76px;
+    padding-bottom:76px;
+    width: 280px;
+    text-align: center;
+    opacity: .5;
+}
+
+.column {
+
+    float: left;
+    width: 23%;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .lshifter{
+      margin-left: 10%;
+  }
