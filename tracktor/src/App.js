@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Charity from "./components/charity/charity";
+import Farmer from "./components/F2F/farmer";
+import Global from "./components/global/global";
+import Local from "./components/local/local";
+import Home from "./components/home/home"
 
-function App() {
+
+class App extends Component {
+  render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <BrowserRouter>
+    <div>
+    <Switch>
+      <Route path="/" component={Home} exact />
+      <Route path="/charity" component={Charity}/>
+      <Route path="/f2f" component={Farmer}/>
+      <Route path="/local" component={Local}/>
+      <Route path="/global" component={Global}/>
+    </Switch>
     </div>
+  </BrowserRouter>
   );
+  }
 }
 
 export default App;
