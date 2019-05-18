@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Yaldevi Colombo ExtraLight Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Yaldevi Colombo ExtraLight Regular'), url('YaldeviColombo-ExtraLight.woff') format('woff');
+}
+
+
+.text{
+    font-family: 'Yaldevi Colombo ExtraLight Regular';
+    font-size: 30px;
+    float: left;
+    padding:30px;
+    position: absolute;
+    top:0;
+    left: 700px;
+    
+}
+.text:hover{
+    color:#6cb46a;
+}
+.text1{
+    font-family: 'Yaldevi Colombo ExtraLight Regular';
+    font-size: 30px;
+    float: left;
+    padding:30px;
+    position: absolute;
+    top:0;
+    left: 850px;
+}
+.text1:hover{
+
+    color:#6cb46a;
+}
+.text2{
+    font-family: 'Yaldevi Colombo ExtraLight Regular';
+    font-size: 30px;
+    float: left;
+    padding:30px;
+    position: absolute;
+    top:0;
+    left: 1000px;
+
+}
+.text2:hover{
+    color:#6cb46a;
+}
+.text3{
+    font-family: 'Yaldevi Colombo ExtraLight Regular';
+    font-size: 30px;
+    float: left;
+    padding:30px;
+    position: absolute;
+    top:0;
+    left: 1150px;
+
+}
+.text3:hover{
+    color:#6cb46a;
+}
+.text4{
+    font-family: 'Yaldevi Colombo ExtraLight Regular';
+    font-size: 30px;
+    float: left;
+    padding:30px;
+    position: absolute;
+    top:0;
+    left: 1300px;
+    color:#6cb46a;
+
+}
+.text4:hover{
+    color:#6cb46a;
+}
+.underline1 {
+    position: relative;
+  }
+  
+  .underline1::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transform-origin: center;
+    transform: translate(-50%, 0) scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .underline1:hover::before {
+    transform: translate(-50%, 0) scaleX(1);
+  }
