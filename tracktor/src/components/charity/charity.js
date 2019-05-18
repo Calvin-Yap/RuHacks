@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navigation from "../home/navbar";
 import './charity.css';
-import { Button } from 'reactstrap';
-import { Link } from 'react-router-dom';
+
 
 
 class Charity extends React.Component {
