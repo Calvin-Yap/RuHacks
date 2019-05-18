@@ -15,54 +15,20 @@ html, body {
     text-decoration: none;
     font-family: 'Yaldevi Colombo ExtraLight Regular';
     text-align: center;
+   
+}
+.buttons:hover{
+    text-decoration: none;
+    color: white;
+}
 
-}
-p{
-  font-family: 'Yaldevi Colombo ExtraLight Regular';
-    font-size: 30px;
-    float: left;
-}
-.p1{
-  font-family: 'Yaldevi Colombo ExtraLight Regular';
-  color: white;
-  font-size: 30px;
-  float: left;
-  
-}
-#bold{
-  font-weight:bold;
-}
-.picture1{
-  padding-left: -100px;
-}
-.box{
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-  border: 0px solid black;
-  padding: 50px;
-  padding-bottom: 200px;
-  margin-left:20px;
-  margin-right: 20px;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-.box1{
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-  border: 0px solid black;
-  padding: 50px;
-  margin-left:20px;
-  margin-right: 20px;
-  background-color: rgba(0, 0, 0, 0.7);
-}
 .boxes1{
  transition-delay: 10s;
     width: 23%;
     border-radius: 50px;
     background-color: black;
-    padding-top: 108px;
-    padding-bottom:108px;
+    padding-top: 104px;
+    padding-bottom:104px;
     width: 280px;
     text-align: center;
   background-image:url('https://i.imgur.com/jYbaKKu.png');
@@ -73,8 +39,8 @@ p{
     width: 23%;
     border-radius: 50px;
     background-color: black;
-    padding-top: 108px;
-    padding-bottom:108px;
+    padding-top: 104px;
+    padding-bottom:104px;
     width: 280px;
     text-align: center;
   background-image:url('https://i.imgur.com/QOotzLV.png');
@@ -84,8 +50,8 @@ p{
 .boxes2line{
     border-radius: 50px;
     background-color: black;
-    padding-top: 76px;
-    padding-bottom:76px;
+    padding-top: 68px;
+    padding-bottom:68px;
     width: 280px;
     text-align: center;
     background-image:url('https://i.imgur.com/kb6rIsK.png');
@@ -93,8 +59,8 @@ p{
 .boxes2line1{
     border-radius: 50px;
     background-color: black;
-    padding-top: 76px;
-    padding-bottom:76px;
+    padding-top: 68px;
+    padding-bottom:68px;
     width: 280px;
     text-align: center;
     background-image:url('https://i.imgur.com/pqgEkaD.png');
@@ -139,6 +105,7 @@ p{
   }
   
   .underline:hover::before {
+      text-decoration: none;
     transform: translate(-50%, 0) scaleX(1);
   }
   .logo{
@@ -147,25 +114,3 @@ p{
       margin-bottom: 4%;
   }
 
-
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-
-/* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-.charity1{
-  font-family: 'Yaldevi Colombo ExtraLight Regular';
-    font-size: 30px;
-    float: left;
-}
