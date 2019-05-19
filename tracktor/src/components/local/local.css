@@ -155,10 +155,100 @@ html, body {
 
   .textcenter2{
     font-family: 'Yaldevi Colombo ExtraLight Regular';
-    font-size: 30px;
+    font-size: 25px;
      text-align: center;
 }
 
 .shifter{
-    margin-top: 4%;
+    font-family: 'Yaldevi Colombo ExtraLight Regular';
+    
+    margin-top: 1%;
+    text-align: center;
+}
+
+.shifter1{    
+    margin-top: 2%;
+
+}
+.greentext{
+    color:#6cb46a;
+}
+
+.worksize{
+    font-size: 20px;
+}
+
+.icon{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 80px;
+
+}
+
+.shifter2{   
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Yaldevi Colombo ExtraLight Regular';
+    text-align: center; 
+    margin-top: 2%;
+    background: #f5F5F5;
+    width:100%;
+}
+
+.cardImg{
+    height: 250px;
+}
+.cardbody{
+    border-radius: 100px;
+
+}
+
+.cardText{
+    text-align: left;
+    font-size: 25px;
+}
+.bodytext{
+    padding-top:5%;
+    text-align: left;
+    font-size: 15px;
+}
+
+.mapshift{
+    margin-top: 8%;
+    margin-left: 2%;
+    float: left;
+}
+
+.mapsearch{
+    margin-left:10%; 
+    width: 700px;
+}
+.mapsearch1{
+ 
+    width: 1500px;
+}
+.bodytext1{
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+}
+.widthfix{
+    width: 500px;
+}
+
+.footer{
+    padding-top: 2%;
+    position: absolute;
+    top:2700px;
+    width: 100%;
+    background: black;
+    height: 150px;
+
+}
+.footertext{
+    padding-left: 38%;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Yaldevi Colombo ExtraLight Regular';
 }

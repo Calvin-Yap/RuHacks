@@ -6,10 +6,10 @@ import './charity.css';
 
 class Charity extends React.Component {
   render() {
-    document.body.style.backgroundColor = "white";
-    document.body.style.background = "url('http://prod-upp-image-read.ft.com/52afd056-01ab-11e2-8aaa-00144feabdc0') no-repeat center 200px ";
-    document.body.style.backgroundSize = "cover";
-    document.body.style.backgroundSize = "100% 100%";
+    
+     document.body.style.background = "url('https://www.publicdomainpictures.net/pictures/190000/velka/black-background-1468370534d5s.jpg') no-repeat center 200px ";
+     document.body.style.backgroundSize = "cover";
+     document.body.style.backgroundSize = "100% 100%";
 
     return (
       <div>

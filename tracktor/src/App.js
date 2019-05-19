@@ -5,6 +5,7 @@ import Farmer from "./components/F2F/farmer";
 import Global from "./components/global/global";
 import Local from "./components/local/local";
 import Home from "./components/home/home"
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 
 class App extends Component {
