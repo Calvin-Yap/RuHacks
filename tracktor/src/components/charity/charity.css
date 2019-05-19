@@ -4,48 +4,153 @@
     font-weight: normal;
     src: local('Yaldevi Colombo ExtraLight Regular'), url('YaldeviColombo-ExtraLight.woff') format('woff');
 }
-p{
+.p{
   font-family: 'Yaldevi Colombo ExtraLight Regular';
     font-size: 30px;
     float: left;
 }
-.p1{
+.ctext{
   font-family: 'Yaldevi Colombo ExtraLight Regular';
-  color: white;
   font-size: 30px;
   float: left;
+  padding-top:70px;
+  position: absolute;
+  top:0;
+  left: 500px;
+}
+.clogo2{
+  text-align: left;
+  margin-left: 0px;
+}
+
+.btn btn-info{
+  font-size: 15px;
+  display:block;
   
 }
 #bold{
   font-weight:bold;
 }
-.picture1{
-  width:100%;
+.cnavigationalbar{
+  background-color: rgb(  255, 88, 168);
+}
+
+.cpicture1{
+  width: 700px;
   height:auto;
 }
-.box{
-
-  border-radius: 25px;
+.cp1{
+  font-family: 'Yaldevi Colombo ExtraLight Regular';
+  color: white;
+  font-size: 30px;
+  float: left;
+  text-align: center;
+  width: 700px;
+}
+.cbox{
+  border-radius: 50px;
   border: 0px solid black;
   padding-top: 50px;
-  padding-bottom: 210px;
+  /* padding-bottom: 210px; */
   padding-left: 40px;
-  padding-right: 30px;
-  margin-left:20px;
-  margin-right: 20px;
+  padding-right: 40px;
+  float: left;
   background-color: rgba(0, 0, 0, 0.7);
 }
-.box1{
-  height: 100%;
+
+
+.ctext:hover{
+  color:rgb(255, 255, 255);
+}
+.ctext1{
+  font-family: 'Yaldevi Colombo ExtraLight Regular';
+  font-size: 30px;
+  float: left;
+  padding-top:70px;
+  position: absolute;
+  top:0;
+  left: 650px;
+}
+.ctext1:hover{
+
+  color:rgb(255, 255, 255);
+}
+.ctext2{
+  font-family: 'Yaldevi Colombo ExtraLight Regular';
+  font-size: 30px;
+  float: left;
+  padding:30px;
+  position: absolute;
+  top:0;
+  padding-top:70px;
+  left: 780px;
+
+}
+.ctext2:hover{
+  color:rgb(255, 255, 255);
+}
+.ctext3{
+  font-family: 'Yaldevi Colombo ExtraLight Regular';
+  font-size: 30px;
+  float: left;
+  padding:30px;
+  padding-top:70px;
+  position: absolute;
+  top:0;
+  left: 940px;
+
+}
+.ctext3:hover{
+  color:rgb(255, 255, 255);
+}
+.ctext4{
+  font-family: 'Yaldevi Colombo ExtraLight Regular';
+  font-size: 30px;
+  float: left;
+  padding:30px;
+  position: absolute;
+  top:0;
+  left: 1115px;
+  padding-top:70px;
+  color:rgb(255, 255, 255);
+
+}
+.ctext4:hover{
+  color:rgb(255, 255, 255);
+}
+.cunderline1 {
+  position: relative;
+}
+
+.cunderline1::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
   width: 100%;
-  border-radius: 25px;
-  border: 0px solid black;
-  padding: 50px;
-  margin-left:20px;
-  margin-right: 20px;
-  background-color: rgba(0, 0, 0, 0.7);
+  height: 2px;
+  background-color: black;
+  transform-origin: center;
+  transform: translate(-50%, 0) scaleX(0);
+  transition: transform 0.3s ease-in-out;
 }
-.button1{
-    height:20px;
-    width:50px;
+
+.cunderline1:hover::before {
+  transform: translate(-50%, 0) scaleX(1);
+}
+
+.ccolumn {
+  float: left;
+  width: 33.33%;
+  padding-left: 125px;
+  padding-top: 70px;
+  
+}
+
+/* Clearfix (clear floats) */
+.crow::after {
+
+  content: "";
+  clear: both;
+  display: table;
 }
