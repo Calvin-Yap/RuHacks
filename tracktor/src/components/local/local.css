@@ -20,7 +20,14 @@ html, body {
     opacity:1;
 
 }
-
+.anchor{
+    text-decoration: none;
+    color: white;
+}
+.anchor:hover{
+    text-decoration: none;
+    color: white;
+}
 .logoLocal{
     position: absolute;
     z-index: 1;

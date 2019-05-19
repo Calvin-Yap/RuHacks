@@ -1,10 +1,10 @@
 import React from 'react';
 import './local.css';
 import ReactSearchBox from 'react-search-box'
-import { Button, Container, Row, Col, Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle } from 'reactstrap';
-    import MapGL, { Popup } from '@urbica/react-map-gl';
-    import 'mapbox-gl/dist/mapbox-gl.css';
+import { Button, Container, Row, Col, Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
+import MapGL, { Popup } from '@urbica/react-map-gl';
+import 'mapbox-gl/dist/mapbox-gl.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 class Local extends React.Component{
@@ -93,7 +93,7 @@ class Local extends React.Component{
             callback={record => console.log(record)}
         />
         </div>
-        <Button className="searcher" color="success" >Search</Button>{' '}
+        <Button className="searcher" color="success" ><AnchorLink className="anchor" offset='-100' href='#things'>Search</AnchorLink></Button>{' '}
           <img className="logoLocal" src="https://i.imgur.com/UFxScxk.png" alt="logo1"/>
           <img className="headersize" src="https://i.ibb.co/XjKb4tk/annie-spratt-773853-unsplash.jpg" alt="backing"/>
       <p className="words"> Milka's Market</p>
@@ -173,7 +173,10 @@ class Local extends React.Component{
     </Container>
 
       </div>
+      <section id='things'> </section>
      <div className="mapshift">
+    
+
      <Row>
         <Col xs="6">
       <MapGL
@@ -246,7 +249,7 @@ class Local extends React.Component{
     </div>
     <div>
 <footer className="footer">
-<p className="footertext">Website made from scratch using ReactJS and NodeJs for RuHacks<br/> Team: It's a bug not a feature <br/>Copyright 2019</p>
+<p className="footertext">Website made from scratch using ReactJS and NodeJs for RuHacks<br/> Team: It's a not bug it's a feature <br/>Copyright 2019</p>
 </footer>
 </div>
     </div>
